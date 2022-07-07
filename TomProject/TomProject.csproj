@@ -107,6 +107,24 @@
     <Compile Include="PL\Fillitem.Designer.cs">
       <DependentUpon>Fillitem.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\formFilleRecipets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\formFilleRecipets.Designer.cs">
+      <DependentUpon>formFilleRecipets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\formFollitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\formFollitem.Designer.cs">
+      <DependentUpon>formFollitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\formharvestRecipets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\formharvestRecipets.Designer.cs">
+      <DependentUpon>formharvestRecipets.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Form_RawRecipets.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +185,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Fillitem.resx">
       <DependentUpon>Fillitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\formFilleRecipets.resx">
+      <DependentUpon>formFilleRecipets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\formFollitem.resx">
+      <DependentUpon>formFollitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\formharvestRecipets.resx">
+      <DependentUpon>formharvestRecipets.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Form_RawRecipets.resx">
       <DependentUpon>Form_RawRecipets.cs</DependentUpon>
